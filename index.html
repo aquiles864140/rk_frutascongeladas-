@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RK Frutas Congeladas</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc;
+            color: #4b3b2a;
+        }
+        header {
+            background-color: #3b7d3b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #2e5c2e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            padding: 50px;
+            text-align: center;
+            background-color: #e0e0c0;
+        }
+        .hero h1 {
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #3b7d3b;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .catalogo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .produto {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #3b7d3b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RK Frutas Congeladas</h1>
+        <p>Sabor e frescor em cada polpa!</p>
+    </header>
+    <nav>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#contato">Contato</a>
+        <a href="https://www.instagram.com/rk_frutascongeladas" target="_blank">Instagram</a>
+    </nav>
+    <section class="hero">
+        <h1>Polpas 100% naturais e congeladas</h1>
+        <p>Experimente o sabor da fruta pura em sua casa ou negócio.</p>
+        <a href="#contato" class="button">Faça seu Pedido</a>
+    </section>
+    <section id="catalogo" class="catalogo">
+        <div class="produto">
+            <h3>Em breve: Polpa de Morango</h3>
+            <p>Deliciosa, natural e congelada.</p>
+        </div>
+        <div class="produto">
+            <h3>Em breve: Polpa de Maracujá</h3>
+            <p>Sabor tropical para suas receitas.</p>
+        </div>
+        <div class="produto">
+            <h3>Em breve: Polpa de Açaí</h3>
+            <p>Energia e frescor direto da natureza.</p>
+        </div>
+    </section>
+    <footer id="contato">
+        <p>Entre em contato pelo Instagram: <a href="https://www.instagram.com/rk_frutascongeladas" style="color: white; text-decoration: underline;">@rk_frutascongeladas</a></p>
+        <p>WhatsApp: em breve</p>
+        <p>&copy; 2025 RK Frutas Congeladas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
